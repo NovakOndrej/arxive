@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# Databases & caches (keep DBs out of git)
+*.db
+data/**/*.db
+**/matches.db
+**/manuscript_db.db
+data/tmp/
+data/cache/
+
+# User data
+data/users/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
