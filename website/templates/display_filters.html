@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Tahoma, sans-serif;
+            position: relative;
+            min-height: 100vh;
+            background: url('{{ url_for('static', filename='images/librarry.jpg') }}') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('{{ url_for('static', filename='images/librarry.jpg') }}') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(6px);
+            z-index: -1;
+        }
+
+        .login-container {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .logo {
+            margin-bottom: 0px;
+        }
+
+        .logo img {
+            max-height: 200px;
+        }
+
+        .login-box {
+            background: rgba({{ colors['sandstone_rgb'][0] }},
+                             {{ colors['sandstone_rgb'][1] }},
+                             {{ colors['sandstone_rgb'][2] }},
+                                0.4);
+            border: 1px solid #ccc;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 360px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .filter-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filter-item {
+            display: flex;
+            align-items: center;
+            background: #f7f9fc;
+            padding: 10px 14px;
+            border-radius: 8px;
+            transition: background 0.2s;
+            text-align: left;
+        }
+
+        .filter-item:hover {
+            background: #e0e9f1;
+        }
+
+        .filter-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 12px;
+            border-radius: 6px;
+            object-fit: cover;
+        }
+
+        .filter-link {
+            text-decoration: none;
+            color: #1a73e8;
+            font-size: 16px;
+            flex-grow: 1;
+        }
+
+        .button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .button.new {
+            background-color: {{ colors["dark_green"]}};
+            color: white;
+        }
+
+        .button.secondary {
+            background-color: {{ colors["blue"]}};
+            color: white;
+        }
+
+        .button.logout {
+            background-color: {{ colors["brick"]}};
+            color: white;
+        }
+
+        .photo-credit {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: white;
+            z-index: 1;
+        }
+
+        .photo-credit a {
+            color: white;
+            text-decoration: underline;
+        }
+
+    .lang-switch {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+    }
+
+    .made-by {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: white;
+    z-index: 1;
+    }
+
+    .made-by a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .lang-switch a img {
+        width: 26px;
+        height: auto;
+        margin-left: 8px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        transition: transform 0.2s ease;
+    }
+
+    .lang-switch a img:hover {
+      transform: scale(1.3);
+    }
+        
+    </style>
+</head>
+<body>
+  <div class="background"></div>
+
+    <div class="lang-switch">
+        <a href="/lang/cz">
+            <img src="{{ url_for('static', filename='images/cz_icon.png') }}" alt="CZ">
+        </a>
+        <a href="/lang/en">
+            <img src="{{ url_for('static', filename='images/en_icon.png') }}" alt="EN">
+        </a>
+        <a href="/lang/es">
+            <img src="{{ url_for('static', filename='images/es_icon.png') }}" alt="ES">
+        </a>
+    </div>
+
+  <main>
+    <div class="login-container">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+        </div>
+        <div class="login-box">
+            <h2>{{ t("fs.your_filters") }}</h2>
+
+            {% if filters %}
+            <div class="filter-list">
+                {% for f in filters %}
+                    {% set icon_index = (loop.index0 % 9) + 1 %}
+                    <div class="filter-item">
+                        <img class="filter-icon" src="{{ url_for('static', filename='images/Icons/icon' ~ icon_index ~ '.png') }}" alt="icon">
+                        <a class="filter-link" href="{{ url_for('editor.edit_filter', filter_name=f) }}">{{ f }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p style="color: #888;">{{ t("fs.no_filters") }}</p>
+            {% endif %}
+
+            <a class="button new" href="/filters/new">{{ t("fs.create_new_filters") }}</a>
+            <a class="button secondary" href="/change_password">{{ t("auth.change_password") }}</a>
+            <a class="button logout" href="{{ url_for('auth.logout') }}">{{ t("fs.logout") }}</a>
+        </div>
+    </div>
+
+    <div class="made-by">
+    Made by <a href="http://65.108.244.193:5002/" target="_blank">Ondřej Novák</a>
+    </div>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Tahoma, sans-serif;
+            position: relative;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('{{ url_for('static', filename='images/librarry.jpg') }}') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(6px);
+            z-index: -1;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .logo {
+            margin-bottom: 00px;
+        }
+
+        .logo img {
+            max-height: 200px;
+        }
+
+        .login-box {
+            background: rgba({{ colors['sandstone_rgb'][0] }},
+                             {{ colors['sandstone_rgb'][1] }},
+                             {{ colors['sandstone_rgb'][2] }},
+                                0.4);
+            border: 1px solid #ccc;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 280px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            background-color: #e9f0ff;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"],
+        .register-button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: {{ colors["dark_green"]}};
+            color: white;
+            cursor: pointer;
+        }
+
+        .register-button {
+            background-color: {{ colors["blue"]}};
+            color: white;
+            text-decoration: none;
+            line-height: normal;
+        }
+
+        .messages {
+            margin-top: 15px;
+            color: red;
+        }
+
+        .photo-credit {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: white;
+            z-index: 1;
+        }
+
+        .photo-credit a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .lang-switch {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .lang-switch a img {
+            width: 26px;
+            height: auto;
+            margin-left: 8px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .lang-switch a img:hover {
+        transform: scale(1.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+
+        <div class="lang-switch">
+        <a href="/lang/cz">
+            <img src="{{ url_for('static', filename='images/cz_icon.png') }}" alt="CZ">
+        </a>
+        <a href="/lang/en">
+            <img src="{{ url_for('static', filename='images/en_icon.png') }}" alt="EN">
+        </a>
+        <a href="/lang/es">
+            <img src="{{ url_for('static', filename='images/es_icon.png') }}" alt="ES">
+        </a>
+    </div>
+
+    <div class="login-container">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+        </div>
+        <div class="login-box">
+            <h2>{{ t("auth.register") }}</h2>
+            <form method="POST">
+                <input name="email" type="email" placeholder="{{ t('auth.email') }}" required>
+                <input name="password" type="password" placeholder="{{ t('auth.password') }}" required>
+                <input name="confirm_password" type="password" placeholder="{{ t('auth.repeat_password') }}" required>
+                <input type="submit" value="{{ t('auth.register') }}">
+            </form>
+            <a class="register-button" href="/">{{ t("auth.back_to_login") }}</a>
+
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <div class="messages">
+                    <ul>{% for msg in messages %}<li>{{ msg }}</li>{% endfor %}</ul>
+                </div>
+              {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+</body>
+</html>

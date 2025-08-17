@@ -1,0 +1,334 @@
+{
+  "auth.login": {
+    "cz": "Přihlášení",
+    "en": "Login",
+    "es": "Iniciar sesión"
+  },
+  "email.subject": {
+    "cz": "Našli jsme nové preprinty odpovídající tvým zájmům",
+    "en": "We found new preprints matching your interests",
+    "es": "Hemos encontrado nuevos preprints que coinciden con tus intereses"
+  },
+  "email.manage_filters": {
+    "cz": "Své filtry můžeš upravit nebo smazat zde:",
+    "en": "You can edit or remove your filters here:",
+    "es": "Puedes editar o eliminar tus filtros aquí:"
+  },
+  "email.intro": {
+    "cz": "Tady je seznam nových článků, které odpovídají tvým nastaveným filtrům.",
+    "en": "Here is a list of newly published papers matching your filters.",
+    "es": "Aquí tienes una lista de nuevos artículos que coinciden con tus filtros."
+  },
+  "email.found_matches": {
+    "cz": "Celkem nalezeno {count} shod.",
+    "en": "A total of {count} matches were found.",
+    "es": "Se han encontrado un total de {count} coincidencias."
+  },
+  "email.too_many_matches": {
+    "cz": "Kvůli velkému počtu výsledků nejsou abstrakty zobrazeny.",
+    "en": "Due to the large number of results, abstracts are not shown.",
+    "es": "Debido al gran número de resultados, los resúmenes no se muestran."
+  },
+  "email.filter_name": {
+    "cz": "Filtr",
+    "en": "Filter",
+    "es": "Filtro"
+  },
+  "email.disclaimer": {
+    "cz": "Tato služba není oficiálně spojena s arXivem. Děkujeme však arXivu za otevřený přístup k datům a podporu otevřené vědy.",
+    "en": "This is a third-party service not affiliated with arXiv. We are grateful to arXiv for openly providing data and promoting accessible science.",
+    "es": "Este es un servicio de terceros no afiliado a arXiv. Agradecemos a arXiv por proporcionar datos abiertamente y promover la ciencia accesible."
+  },
+  "auth.invalid_credentials": {
+  "cz": "Neplatný e-mail nebo heslo.",
+  "en": "Invalid email or password.",
+  "es": "Correo electrónico o contraseña no válidos."
+  },
+  "auth.email": {
+    "cz": "E-mail",
+    "en": "Email",
+    "es": "Correo electrónico"
+  },
+  "auth.password": {
+    "cz": "Heslo",
+    "en": "Password",
+    "es": "Contraseña"
+  },
+  "auth.register": {
+    "cz": "Registrace",
+    "en": "Register",
+    "es": "Registrarse"
+  },
+  "auth.back_to_login": {
+    "cz": "Zpět na přihlášení",
+    "en": "Back to Login",
+    "es": "Volver al inicio de sesión"
+  },
+  "auth.slogan": {
+  "cz": "Pomáháme vám držet krok s vědou",
+  "en": "We help you keep up with science",
+  "es": "Te ayudamos a mantenerte al día con la ciencia"
+  },
+
+  "auth.arxiv_credit": {
+    "cz": "Tato služba není spojena s arXiv a pouze využívá data, která arXiv otevřeně poskytuje. Děkujeme arXiv za jejich práci.",
+    "en": "This service is not affiliated with arXiv and only uses data that arXiv openly provides. We thank arXiv for their work.",
+    "es": "Este servicio no está afiliado con arXiv y solo utiliza los datos que arXiv proporciona abiertamente. Agradecemos a arXiv por su trabajo."
+  },
+  "fs.your_filters": {
+    "cz": "Tvé Filtry",
+    "en": "Your Filters",
+    "es": "Tus filtros"
+  },
+  "fs.no_filters": {
+    "cz": "Zatím nemáš žádné filtry",
+    "en": "You don’t have any filters yet",
+    "es": "Aún no tienes filtros"
+  },
+  "fs.create_new_filters": {
+    "cz": "Vytvořit Nový Filtr",
+    "en": "Create New Filter",
+    "es": "Crear nuevo filtro"
+  },
+  "fs.logout": {
+    "cz": "Odhlásit Se",
+    "en": "Log Out",
+    "es": "Cerrar sesión"
+  },
+  "fe.edit_filter": {
+    "cz": "Úprava filtru",
+    "en": "Edit Filter",
+    "es": "Editar filtro"
+  },
+  "fe.create": {
+    "cz": "Vytváření Nového Filtru",
+    "en": "Create New Filter",
+    "es": "Crear nuevo filtro"
+  },
+  "fe.save": {
+    "cz": "Uložit",
+    "en": "Save",
+    "es": "Guardar"
+  },
+  "fe.delete_filter": {
+    "cz": "Smazat filtr",
+    "en": "Delete Filter",
+    "es": "Eliminar filtro"
+  },
+  "auth.change_password": {
+    "cz": "Změna hesla",
+    "en": "Change Password",
+    "es": "Cambiar contraseña"
+  },
+  "auth.current_password": {
+    "cz": "Současné heslo",
+    "en": "Current Password",
+    "es": "Contraseña actual"
+  },
+  "auth.new_password": {
+    "cz": "Nové heslo",
+    "en": "New Password",
+    "es": "Nueva contraseña"
+  },
+  "auth.repeat_password": {
+    "cz": "Zopakujte heslo",
+    "en": "Repeat Password",
+    "es": "Repetir contraseña"
+  },
+  "auth.passwords_dont_match": {
+    "cz": "Hesla se neshodují.",
+    "en": "Passwords do not match.",
+    "es": "Las contraseñas no coinciden."
+  },
+  "auth.password_too_short": {
+    "cz": "Heslo musí mít alespoň 8 znaků.",
+    "en": "Password must be at least 8 characters.",
+    "es": "La contraseña debe tener al menos 8 caracteres."
+  },
+  "auth.incorrect_current_password": {
+    "cz": "Nesprávné současné heslo.",
+    "en": "Incorrect current password.",
+    "es": "Contraseña actual incorrecta."
+  },
+  "auth.password_changed_successfully": {
+    "cz": "Heslo bylo úspěšně změněno.",
+    "en": "Password changed successfully.",
+    "es": "Contraseña cambiada con éxito."
+  },
+  "auth.forgot_password": {
+    "cz": "Obnova hesla",
+    "en": "Forgot Password?",
+    "es": "¿Olvidaste tu contraseña?"
+  },
+  "auth.send_reset_email": {
+    "cz": "Odeslat nové heslo",
+    "en": "Send New Password",
+    "es": "Enviar nueva contraseña"
+  },
+  "auth.reset_email_sent": {
+    "cz": "Nové heslo bylo zasláno na váš email.",
+    "en": "A new password was sent to your email.",
+    "es": "Se envió una nueva contraseña a tu correo electrónico."
+  },
+  "auth.email_not_found": {
+    "cz": "Email nebyl nalezen.",
+    "en": "Email not found.",
+    "es": "Correo electrónico no encontrado."
+  },
+  "auth.email_failed": {
+    "cz": "Nepodařilo se odeslat email.",
+    "en": "Failed to send email.",
+    "es": "No se pudo enviar el correo electrónico."
+  },
+  "email.reset_password_subject": {
+    "cz": "Vaše nové heslo",
+    "en": "Your new password",
+    "es": "Tu nueva contraseña"
+  },
+  "email.reset_password_body": {
+    "cz": "Vaše nové dočasné heslo je: {password}\nPřihlaste se prosím a změňte si ho co nejdříve.",
+    "en": "Your temporary password is: {password}\nPlease log in and change it as soon as possible.",
+    "es": "Tu contraseña temporal es: {password}\nPor favor, inicia sesión y cámbiala lo antes posible."
+  },
+  "fe.filter_type": {
+    "cz": "Typ filtru",
+    "en": "Filter Type",
+    "es": "Tipo de filtro"
+  },
+  "fe.keyword_based": {
+    "cz": "Podle klíčových slov",
+    "en": "Keyword-based",
+    "es": "Basado en palabras clave"
+  },
+  "fe.author_based": {
+    "cz": "Podle autora",
+    "en": "Author-based",
+    "es": "Basado en autor"
+  },
+  "fe.keyword_groups": {
+    "cz": "Skupiny klíčových slov",
+    "en": "Keyword Groups",
+    "es": "Grupos de palabras clave"
+  },
+  "fe.add_keyword": {
+    "cz": "Přidat klíčové slovo",
+    "en": "Add Keyword",
+    "es": "Agregar palabra clave"
+  },
+  "fe.group": {
+    "cz": "Skupina",
+    "en": "Group",
+    "es": "Grupo"
+  },
+  "fe.orcid": {
+    "cz": "ORCID autora",
+    "en": "Author ORCID",
+    "es": "ORCID del autor"
+  },
+  "fe.add_group": {
+    "cz": "Přidat skupinu",
+    "en": "Add Keyword group",
+    "es": "Agregar grupo de palabras clave"
+  },
+  "fe.remove_group": {
+    "cz": "Odebrat skupinu",
+    "en": "Remove Keyword group",
+    "es": "Eliminar grupo de palabras clave"
+  },
+  "fe.name": {
+    "cz": "Jméno filtru",
+    "en": "Filter name",
+    "es": "Nombre del filtro"
+  },
+  "fe.check_filter": {
+    "cz": "Vyzkoušet filtr",
+    "en": "Check filter",
+    "es": "Probar filtro"
+  },
+  "fe.found": {
+    "cz": "Nalezeno",
+    "en": "Found",
+    "es": "Encontrado"
+  },
+  "fe.matches": {
+    "cz": "shod.",
+    "en": "matches.",
+    "es": "coincidencias"
+  },
+  "fe.examples": {
+    "cz": "Příklady",
+    "en": "Examples",
+    "es": "Ejemplos"
+  },
+  "fe.how_to_use": {
+    "cz": "Návod k použití",
+    "en": "How to use?",
+    "es": "¿Cómo usarlo?"
+  },
+  "fe.download_categories": {
+    "cz": "Kategorie",
+    "en": "Categories",
+    "es": "Categorías"
+  },
+  "fe.description": {
+    "cz": "Zde můžete zadat klíčová slova a jejich skupiny pro váš filtr. Aby filtr odpovídal nějaké publikaci na arXivu, musí se v názvu, abstraktu, seznamu autorů nebo seznamu klíčových slov objevit alespoň jedno klíčové slovo z každé skupiny. Pomocí tlačítka „Vyzkoušet filtr“ si můžete ověřit, zda aktuální nastavení filtru vrací nějaké shody. Podrobnější návod najdete níže.",
+    "en": "Here you can specify Keywords and Keyword groups for your filter. For filter to match a publication on Arxiv, it has to have at least one Keyword from each Keyword Group in title, abstract, list of authors or list of keywords. Youd can check if your current filter setting find any matches by pressing the Check filter button. More detailed guide can be found at the bottom.",
+    "es": "Aquí puedes especificar palabras clave y sus grupos para tu filtro. Para que un filtro coincida con una publicación en arXiv, debe contener al menos una palabra clave de cada grupo en el título, resumen, lista de autores o lista de palabras clave. Puedes comprobar si tu configuración actual encuentra coincidencias usando el botón 'Probar filtro'. Una guía más detallada se encuentra al final."
+  },
+  "fe.too_much": {
+    "cz": "Počet nalezených článků je příliš veliký, abstrakty nebudou zobrazeny.",
+    "en": "The number of papers found is too large, abstracts are not being displayed.",
+    "es": "Se encontraron demasiados artículos, los resúmenes no se mostrarán."
+  },
+  "fe.usage_guide.intro": {
+    "cz": "Tento systém pomáhá vědcům sledovat nové publikace na arXivu tím, že posílá e-mailová upozornění na články odpovídající jejich zájmům. Můžete si nastavit filtr založený na klíčových slovech, který bude vyhledávat v názvu, abstraktu, seznamu autorů nebo v kódu arXiv kategorie.",
+    "en": "This system helps scientists stay up to date with new publications on arXiv by sending email notifications when papers matching their interests appear. You can define keyword-based filters that search the title, abstract, list of authors, or arXiv category of new papers.",
+    "es": "Este sistema ayuda a los científicos a mantenerse al día con nuevas publicaciones en arXiv enviando notificaciones por correo electrónico cuando aparecen artículos relevantes. Puedes definir filtros basados en palabras clave que buscan en el título, resumen, lista de autores o categoría arXiv de nuevos artículos."
+  },
+  "fe.usage_guide.match_logic": {
+    "cz": "Aby byl článek považován za shodu, musí obsahovat alespoň jedno klíčové slovo z každé skupiny.",
+    "en": "To return a match, at least one keyword from each keyword group must be present.",
+    "es": "Para que haya una coincidencia, al menos una palabra clave de cada grupo debe estar presente."
+  },
+  "fe.usage_guide.check_button": {
+    "cz": "Tlačítkem 'Vyzkoušet filtr' můžete zjistit, zda váš filtr odpovídá některým existujícím článkům.",
+    "en": "You can check if your filter is working correctly using the Check filter button before saving.",
+    "es": "Puedes comprobar si tu filtro funciona correctamente usando el botón 'Probar filtro' antes de guardarlo."
+  },
+  "fe.usage_guide.database_note": {
+    "cz": "Udržujeme databázi článků z posledních dvou let. První e-mail vám pravděpodobně zobrazí větší počet článků, ale další už budou obsahovat jen nové publikace.",
+    "en": "We maintain a database of up to 2 years of arXiv publications. The first email may return many results, but subsequent emails will only include new papers.",
+    "es": "Mantenemos una base de datos con hasta 2 años de publicaciones de arXiv. El primer correo electrónico puede contener muchos resultados, pero los siguientes solo incluirán artículos nuevos."
+  },
+  "fe.usage_guide.example_authors": {
+    "cz": "Sledování konkrétních autorů",
+    "en": "Tracking a group of authors",
+    "es": "Seguimiento de un grupo de autores"
+  },
+  "fe.usage_guide.example_category": {
+    "cz": "Sledování konkrétní arXiv kategorie s jedním klíčovým slovem",
+    "en": "Following a topic in a specific arXiv category",
+    "es": "Seguir un tema en una categoría específica de arXiv"
+  },
+  "fe.usage_guide.example_keywords": {
+    "cz": "Kombinace tří skupin klíčových slov s několika variantami v každé",
+    "en": "Three keyword combination with several variants in each group",
+    "es": "Combinación de tres grupos de palabras clave con varias variantes en cada uno"
+  },
+  "fe.usage_guide.download_categories": {
+    "cz": "Seznam přesných kódů arXiv kategorií si můžete stáhnout níže.",
+    "en": "You can download the list of exact arXiv category codes below.",
+    "es": "Puedes descargar la lista de códigos exactos de categorías de arXiv a continuación."
+  },
+  "fe.usage_guide.warning_title": {
+  "en": "⚠️ Keyword spelling matters!",
+  "cz": "⚠️ Záleží na přesném znění klíčových slov!",
+  "es": "⚠️ ¡La ortografía de la palabra clave importa!"
+  },
+  "fe.usage_guide.warning_body": {
+    "en": "Some terms may appear in different forms (e.g., 'Kerr effect' vs. 'kerreffect', or 'anti-particle' vs. 'antiparticle'), and these are not considered the same by the search engine (We are searching for whole words, not substrings). If you're targeting such terms, place multiple spelling variants in the same keyword group.",
+    "cz": "Některé pojmy se mohou vyskytovat v různých tvarech (např. 'Kerr effect' vs. 'kerreffect' nebo 'anti-particle' vs. 'antiparticle'), a vyhledávač je nerozpozná jako stejné (vyhledáváme celá slova, ne podřetězce). Pokud hledáte takové výrazy, vložte více variant do jedné skupiny klíčových slov.",
+    "es": "Algunos términos pueden aparecer en diferentes formas (por ejemplo, 'Kerr effect' vs. 'kerreffect', o 'anti-particle' vs. 'antiparticle'), y el buscador no los considera iguales (estamos buscando palabras completas, no subcadenas). Si busca dichos términos, incluya varias variantes ortográficas en el mismo grupo de palabras clave."
+  }
+
+}

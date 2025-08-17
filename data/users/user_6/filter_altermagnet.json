@@ -1,0 +1,10 @@
+{
+  "filter_type": "keyword",
+  "keyword_groups": [
+    [
+      "\"altermagnet\"",
+      "\"kerr effect\""
+    ]
+  ],
+  "last_scan": "2025-08-17T06:45:03.358344+00:00"
+}

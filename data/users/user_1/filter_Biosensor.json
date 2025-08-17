@@ -1,0 +1,19 @@
+{
+  "filter_type": "keyword",
+  "keyword_groups": [
+    [
+      "\"biosensor\"",
+      "\"biodetector\"",
+      "\"microconcentration\"",
+      "\"photonic\""
+    ],
+    [
+      "\"kerr\"",
+      "\"rotation\"",
+      "\"faraday\"",
+      "\"polarisation\"",
+      "\"gass\""
+    ]
+  ],
+  "last_scan": "2025-08-17T06:45:02.433609+00:00"
+}

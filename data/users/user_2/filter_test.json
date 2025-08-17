@@ -1,0 +1,9 @@
+{
+  "filter_type": "keyword",
+  "keyword_groups": [
+    [
+      "\"Pt/Co/Pt\""
+    ]
+  ],
+  "last_scan": "2025-08-17T06:45:02.656434+00:00"
+}

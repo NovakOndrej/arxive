@@ -1,0 +1,465 @@
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 681 total matches from FTS.
+🆕 3 new matches found since last scan.
+✅ Inserted 3 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 67 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 687 total matches from FTS.
+🆕 687 new matches found since last scan.
+✅ Inserted 687 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 67 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_test.json
+📄 Found 4921 total matches from FTS.
+🆕 4921 new matches found since last scan.
+✅ Inserted 4921 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+Traceback (most recent call last):
+  File "/root/arxive/filtering.py", line 69, in <module>
+    main_cursor.execute("""
+sqlite3.OperationalError: fts5: syntax error near "/"
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 690 total matches from FTS.
+🆕 690 new matches found since last scan.
+✅ Inserted 690 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 68 new matches found since last scan.
+✅ Inserted 68 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_test.json
+📄 Found 11 total matches from FTS.
+🆕 11 new matches found since last scan.
+✅ Inserted 11 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 1 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 672 total matches from FTS.
+🆕 3 new matches found since last scan.
+✅ Inserted 3 entries to matches.db.
+⏱️  Timestamp updated.
+
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 696 total matches from FTS.
+🆕 696 new matches found since last scan.
+✅ Inserted 696 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_test.json
+📄 Found 11 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 1 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 673 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 697 total matches from FTS.
+🆕 697 new matches found since last scan.
+✅ Inserted 697 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_test.json
+📄 Found 12 total matches from FTS.
+🆕 12 new matches found since last scan.
+✅ Inserted 12 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 677 total matches from FTS.
+🆕 4 new matches found since last scan.
+✅ Inserted 4 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 140 total matches from FTS.
+🆕 140 new matches found since last scan.
+✅ Inserted 140 entries to matches.db.
+⏱️  Timestamp updated.
+
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 697 total matches from FTS.
+🆕 697 new matches found since last scan.
+✅ Inserted 697 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 677 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 140 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 697 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 677 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 140 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 699 total matches from FTS.
+🆕 2 new matches found since last scan.
+✅ Inserted 2 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 681 total matches from FTS.
+🆕 4 new matches found since last scan.
+✅ Inserted 4 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 141 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 702 total matches from FTS.
+🆕 702 new matches found since last scan.
+✅ Inserted 702 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 686 total matches from FTS.
+🆕 5 new matches found since last scan.
+✅ Inserted 5 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 142 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 707 total matches from FTS.
+🆕 5 new matches found since last scan.
+✅ Inserted 5 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 68 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 690 total matches from FTS.
+🆕 4 new matches found since last scan.
+✅ Inserted 4 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 142 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 710 total matches from FTS.
+🆕 3 new matches found since last scan.
+✅ Inserted 3 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 69 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 694 total matches from FTS.
+🆕 4 new matches found since last scan.
+✅ Inserted 4 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 143 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Test Gervasi.json
+📄 Found 5 total matches from FTS.
+🆕 5 new matches found since last scan.
+✅ Inserted 5 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 712 total matches from FTS.
+🆕 712 new matches found since last scan.
+✅ Inserted 712 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 69 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 696 total matches from FTS.
+🆕 2 new matches found since last scan.
+✅ Inserted 2 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 144 total matches from FTS.
+🆕 1 new matches found since last scan.
+✅ Inserted 1 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Test Gervasi.json
+📄 Found 5 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 712 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Martin test.json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 69 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 696 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 144 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Test Gervasi.json
+📄 Found 5 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Topology.json
+📄 Found 712 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Martin test.json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+🔍 Working on filter: /root/arxive/data/users/user_1/filter_Biosensor.json
+📄 Found 69 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_2/filter_test.json
+📄 Found 2 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_4/filter_Test1.json
+📄 Found 696 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_6/filter_altermagnet.json
+📄 Found 144 total matches from FTS.
+🆕 0 new matches found since last scan.
+✅ Inserted 0 entries to matches.db.
+⏱️  Timestamp updated.
+
+🔍 Working on filter: /root/arxive/data/users/user_7/filter_strongly correlated .json
+📄 Found 0 total matches from FTS.
+⏱️  No matches found — updated timestamp.
+✅ Filters processed and user match databases updated.

@@ -1,0 +1,12 @@
+{
+  "filter_type": "keyword",
+  "keyword_groups": [
+    [
+      "\"spin-orbital\""
+    ],
+    [
+      "\"entanglement\""
+    ]
+  ],
+  "last_scan": "2025-08-17T06:45:01.722913+00:00"
+}
