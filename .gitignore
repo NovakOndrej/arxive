@@ -11,17 +11,18 @@ venv/
 # Logs
 logs/
 *.log
+flask.log
+update_db.log
 
-# Databases & caches (keep DBs out of git)
+# Databases & caches
 *.db
-data/**/*.db
-**/matches.db
-**/manuscript_db.db
-data/tmp/
-data/cache/
+data/
 
-# User data
+# User data (already inside data/, but keep for clarity)
 data/users/
+
+# Misc
+to-do.txt
 
 # OS/editor
 .DS_Store
