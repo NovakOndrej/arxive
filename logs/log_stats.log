@@ -1,4 +1,0 @@
-/root/arxive/log_stats.py:69: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  timestamp = datetime.utcnow().isoformat()
-📊 Logging usage statistics...
-✅ Stats recorded at 2025-08-16T22:01:01.353646: Users=7, Filters=8, Recommendations=6436
