@@ -329,6 +329,38 @@
     "en": "Some terms may appear in different forms (e.g., 'Kerr effect' vs. 'kerreffect', or 'anti-particle' vs. 'antiparticle'), and these are not considered the same by the search engine (We are searching for whole words, not substrings). If you're targeting such terms, place multiple spelling variants in the same keyword group.",
     "cz": "Některé pojmy se mohou vyskytovat v různých tvarech (např. 'Kerr effect' vs. 'kerreffect' nebo 'anti-particle' vs. 'antiparticle'), a vyhledávač je nerozpozná jako stejné (vyhledáváme celá slova, ne podřetězce). Pokud hledáte takové výrazy, vložte více variant do jedné skupiny klíčových slov.",
     "es": "Algunos términos pueden aparecer en diferentes formas (por ejemplo, 'Kerr effect' vs. 'kerreffect', o 'anti-particle' vs. 'antiparticle'), y el buscador no los considera iguales (estamos buscando palabras completas, no subcadenas). Si busca dichos términos, incluya varias variantes ortográficas en el mismo grupo de palabras clave."
+  },
+  "auth.verify_registration": {
+  "en": "Email Verification",
+  "cz": "Ověření e-mailu",
+  "es": "Verificación de correo"
+  },
+  "auth.verify": {
+    "en": "Verify",
+    "cz": "Ověřit",
+    "es": "Verificar"
+  },
+  
+  "email.verify_subject": {
+    "en": "Your ArXiv Butler verification code",
+    "cz": "Tvůj ověřovací kód od ArXiv Butlera",
+    "es": "Tu código de verificación de ArXiv Butler"
+  },
+  "email.verify_body": {
+    "en": "Your verification code is {code}.",
+    "cz": "Tvůj ověřovací kód je {code}.",
+    "es": "Tu código de verificación es {code}."
+  },
+  "auth.code_sent": {
+    "en": "Verification code sent to your email.",
+    "cz": "Ověřovací kód byl odeslán na tvůj email.",
+    "es": "El código de verificación fue enviado a tu correo."
+  },
+  "auth.registration_success": {
+    "en": "Registration successful! You can now log in.",
+    "cz": "Registrace byla úspěšná! Nyní se můžeš přihlásit.",
+    "es": "¡Registro exitoso! Ahora puedes iniciar sesión."
   }
-
 }
+
+

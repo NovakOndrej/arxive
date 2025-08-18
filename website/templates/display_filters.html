@@ -105,6 +105,7 @@
             display: block;
             text-align: center;
             box-sizing: border-box;
+            text-decoration: none;
         }
 
         .button.new {
@@ -207,7 +208,7 @@
                 {% endfor %}
             </div>
             {% else %}
-            <p style="color: #888;">{{ t("fs.no_filters") }}</p>
+            <p style="color: {{ colors['dark'] }};">{{ t("fs.no_filters") }}</p>
             {% endif %}
 
             <a class="button new" href="/filters/new">{{ t("fs.create_new_filters") }}</a>
