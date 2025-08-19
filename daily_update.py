@@ -198,6 +198,8 @@ def prune_old_papers(days=PRUNE_DAYS):
     return to_delete
 
 if __name__ == "__main__":
+    print('')
+    print(datetime.now(timezone.utc).isoformat())
     initialize_database()
     total_inserted = 0
     for query in SEARCH_QUERIES:

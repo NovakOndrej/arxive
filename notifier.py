@@ -4,7 +4,7 @@ import sqlite3
 import json
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from datetime import datetime
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 # --- Configuration ---
@@ -303,4 +303,6 @@ def main():
             print(f"✅ Email sent to {email}")
 
 if __name__ == "__main__":
+    print('')
+    print(datetime.now(timezone.utc).isoformat())
     main()

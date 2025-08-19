@@ -1,7 +1,10 @@
 import os
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timezone
 from glob import glob
+
+print('')
+print(datetime.now(timezone.utc).isoformat())
 
 # --- Config ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

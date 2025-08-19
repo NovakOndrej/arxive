@@ -8,6 +8,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MAIN_DB_PATH = os.path.join(SCRIPT_DIR, "data", "manuscript_db.db")
 USERS_ROOT = os.path.join(SCRIPT_DIR, "data", "users")
 
+print('')
+print(datetime.now(timezone.utc).isoformat())
+
 def build_fts_query_from_filter(filter_data):
     groups = filter_data.get("keyword_groups", [])
     if not groups:
