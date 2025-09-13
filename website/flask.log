@@ -8,91 +8,160 @@
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 560-447-307
-127.0.0.1 - - [19/Aug/2025 22:47:06] "GET /filters/edit/Topology HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:47:06] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:06] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:06] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:06] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[32mGET /logout HTTP/1.0[0m" 302 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:13] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:15] "[32mPOST / HTTP/1.0[0m" 302 -
-127.0.0.1 - - [19/Aug/2025 22:47:15] "GET /filters HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:47:15] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/Icons/icon2.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:47:16] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:49:02] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:54:25] "[32mGET /lang/cz HTTP/1.0[0m" 302 -
-127.0.0.1 - - [19/Aug/2025 22:54:25] "GET /filters HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:54:25] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:25] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:25] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:26] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:26] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:26] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:54:26] "[36mGET /static/images/Icons/icon2.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:56:41] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:56:51] "GET /filters/edit/Topology HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 22:56:51] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:56:51] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:56:51] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:56:51] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
-127.0.0.1 - - [19/Aug/2025 22:59:37] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 22:59:42] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:01:43] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:40] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 23:02:40] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:40] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:41] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:02:42] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [19/Aug/2025 23:08:24] "GET / HTTP/1.0" 200 -
- * Detected change in '/root/arxive/daily_update.py', reloading
+ * Debugger PIN: 702-116-423
+172.235.40.131 - - [13/Sep/2025 01:32:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 01:46:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 02:00:49] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:00:50] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 02:31:23] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:31:42] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:31:42] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:33:53] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:44:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 02:57:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 02:57:19] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+185.226.197.62 - - [13/Sep/2025 03:27:01] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9d\x01\x00\x00\x99\x03\x03O{vË¦\x8c')
+185.226.197.62 - - [13/Sep/2025 03:27:01] "[31m[1m\x16\x03\x01\x00\x9d\x01\x00\x00\x99\x03\x03O{vË¦\x8c[0m" 400 -
+185.226.197.64 - - [13/Sep/2025 03:27:01] code 400, message Bad request version ('À\x14À')
+185.226.197.64 - - [13/Sep/2025 03:27:01] "[31m[1m\x16\x03\x01\x00\x9d\x01\x00\x00\x99\x03\x03\x1eR×E#Õ\x00\\lÔêb\x8b\x8f /ðor>åX«Í©\x1e\x891ðëÍ%\x00\x00BÀ\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 03:34:42] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 03:34:44] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:07:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:20:08] "[33mGET /ab2g HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:20:08] "[33mGET /ab2h HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:20:09] "[33mGET /alive.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:20:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:20:13] "[33mGET /teorema505?t=1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:20:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:20:24] "[33mGET /index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 04:22:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:42:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:51:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 04:56:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 05:00:22] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 05:00:23] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 05:28:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 05:32:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 05:32:19] "[33mGET /webui/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 05:37:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 05:42:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 05:50:43] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:02:46] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:03:25] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:03:59] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:04:14] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:06:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 06:06:19] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 06:12:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 06:19:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 07:04:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 07:26:21] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 07:37:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 07:38:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 07:39:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 07:42:20] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 07:42:21] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 08:01:39] "[33mGET /.env HTTP/1.0[0m" 404 -
+139.162.186.99 - - [13/Sep/2025 08:19:21] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+139.162.186.99 - - [13/Sep/2025 08:19:21] "[31m[1m\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 08:19:22] "GET / HTTP/1.0" 200 -
+139.162.186.99 - - [13/Sep/2025 08:19:26] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:26] "[31m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:26] "GET / HTTP/1.0" 200 -
+139.162.186.99 - - [13/Sep/2025 08:19:26] "OPTIONS / HTTP/1.0" 200 -
+139.162.186.99 - - [13/Sep/2025 08:19:26] code 400, message Bad request version ('RTSP/1.0')
+139.162.186.99 - - [13/Sep/2025 08:19:26] "[31m[1mOPTIONS / RTSP/1.0[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:31] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:31] "[31m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:36] code 400, message Bad HTTP/0.9 request type ('\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:36] "[31m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:36] code 400, message Bad request syntax ('HELP')
+139.162.186.99 - - [13/Sep/2025 08:19:36] "[31m[1mHELP[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:37] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:37] "[31m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:37] code 400, message Bad request version ('\x00/\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:37] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:37] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+139.162.186.99 - - [13/Sep/2025 08:19:37] "[31m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:42] code 400, message Bad request version ('0.12\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:42] "[31m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:47] code 400, message Bad HTTP/0.9 request type ('l\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:47] "[31m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:47] code 400, message Bad request version ('SIP/2.0')
+139.162.186.99 - - [13/Sep/2025 08:19:47] "[31m[1mOPTIONS sip:nm SIP/2.0[0m" 400 -
+139.162.186.99 - - [13/Sep/2025 08:19:52] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:52] "[31m[1mAMQP\x00\x00\x09\x01[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "[33mGET /webui HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "[33mGET /owa/ HTTP/1.0[0m" 404 -
+139.162.186.99 - - [13/Sep/2025 08:19:52] code 400, message Bad request version ('\x00/\x00')
+139.162.186.99 - - [13/Sep/2025 08:19:52] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 08:19:52] "[33mGET /owa/ HTTP/1.0[0m" 404 -
+139.162.186.99 - - [13/Sep/2025 08:20:02] code 400, message Bad request version ("K1¹Ä\x94H\x8e3\x95Xíù\x7f8±\x13¶\x95àIs\x8c´\x9bs\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+139.162.186.99 - - [13/Sep/2025 08:20:02] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1f\x19¾k«EQ\x81@¦ÒÈjÜt/©ÔªT\x14\x89ß\x01\x1a¤|§ðû\x83× 6µ\x19e?\x02\x1eK1¹Ä\x94H\x8e3\x95Xíù\x7f8±\x13¶\x95àIs\x8c´\x9bs\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 08:20:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:20:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:33:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:46:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 08:46:20] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 08:48:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 09:25:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 09:29:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 09:53:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 10:00:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 10:19:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 10:27:12] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 10:27:17] "GET /register HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 10:51:43] "[33mGET /aaa9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 10:51:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 10:51:43] "[33mGET /aab9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 10:51:49] "[33mGET /aaa9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 10:51:49] "[33mGET /aab9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 11:07:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 11:13:49] "GET /register HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 11:18:25] "GET / HTTP/1.0" 200 -
+167.94.138.170 - - [13/Sep/2025 11:57:30] code 400, message Bad request version ('À\x14À')
+167.94.138.170 - - [13/Sep/2025 11:57:30] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x1aµ]\x02\x7fc\x1eÆ;r\x8es®M&Ü\x07\x99u£!1nwÏ\x0dúixÄ ¥ «Jè\x92»G²\x82C¬KdÅH[\x85§%=±Ò\\ÆNcïÀÔkí0\x85\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.170 - - [13/Sep/2025 11:57:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 12:09:01] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 12:11:55] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+185.247.137.36 - - [13/Sep/2025 12:17:15] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+185.247.137.36 - - [13/Sep/2025 12:17:15] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+87.236.176.3 - - [13/Sep/2025 12:17:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 12:18:37] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 12:18:37] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 12:33:27] "[33mGET /wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 12:34:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 12:50:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 12:51:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 13:02:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 13:12:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 13:26:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 14:00:06] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 14:11:59] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 14:11:59] "GET / HTTP/1.0" 200 -
+165.154.152.30 - - [13/Sep/2025 14:52:58] "GET / HTTP/1.1" 200 -
+65.49.1.66 - - [13/Sep/2025 15:06:58] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03`SÃ4s}ðô÷Â')
+65.49.1.66 - - [13/Sep/2025 15:06:58] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03`SÃ4s}ðô÷Â[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 15:19:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 15:20:22] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+152.53.67.120 - - [13/Sep/2025 15:40:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00.)à\x00\x00\x00\x00\x00Cookie:')
+152.53.67.120 - - [13/Sep/2025 15:40:14] "[31m[1m\x03\x00\x00.)à\x00\x00\x00\x00\x00Cookie: mstshash=MMATZDQY[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 16:14:03] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2025 16:39:10] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [13/Sep/2025 16:39:10] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [13/Sep/2025 16:39:48] "GET / HTTP/1.0" 200 -
+ * Detected change in '/root/arxive/llm_test.py', reloading
 [INFO] users.db already exists.
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 560-447-307
- * Detected change in '/root/arxive/filtering.py', reloading
+ * Debugger PIN: 702-116-423
+ * Detected change in '/root/arxive/llm_test.py', reloading
 [INFO] users.db already exists.
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 560-447-307
- * Detected change in '/root/arxive/log_stats.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 560-447-307
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 560-447-307
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 560-447-307
+ * Debugger PIN: 702-116-423
+127.0.0.1 - - [13/Sep/2025 17:08:04] "GET / HTTP/1.0" 200 -

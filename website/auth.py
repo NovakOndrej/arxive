@@ -12,7 +12,7 @@ from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 from flask import render_template
 from datetime import datetime
-
+from flask import current_app
 
 
 

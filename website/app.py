@@ -12,6 +12,7 @@ from flask import render_template, flash
 from utils import t, COLORS
 from werkzeug.security import generate_password_hash
 from datetime import datetime
+from flask import current_app
 
 
 
