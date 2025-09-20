@@ -424,3 +424,39 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 702-116-423
+127.0.0.1 - - [20/Sep/2025 22:17:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Sep/2025 22:17:58] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Sep/2025 22:18:10] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Sep/2025 22:18:10] "[33mGET /login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Sep/2025 22:33:53] "[33mGET /actuator/gateway/routes HTTP/1.0[0m" 404 -
+ * Detected change in '/root/arxive/summary.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+ * Detected change in '/root/arxive/summary.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+ * Detected change in '/root/arxive/summary.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+127.0.0.1 - - [20/Sep/2025 23:15:59] "GET / HTTP/1.0" 200 -
+157.245.152.217 - - [20/Sep/2025 23:21:23] code 400, message Bad request version ('õbïi¬Ýb\x93"ÒÖ¿ÔBæX\x95(á')
+157.245.152.217 - - [20/Sep/2025 23:21:23] "[31m[1m\x16\x03\x01\x05½\x01\x00\x05¹\x03\x03W56úThD#\x8e!lÈ\x09Æ£5\x9b hb{óc¨d\x06\x1e\x84\x0e7á\x1f éì^\x0c]\x1fõbïi¬Ýb\x93"ÒÖ¿ÔBæX\x95(á[0m" 400 -
+157.245.152.217 - - [20/Sep/2025 23:21:23] "[33mGET /cdn-cgi/trace HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Sep/2025 23:25:56] "GET / HTTP/1.0" 200 -
+ * Detected change in '/root/arxive/summary.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+ * Detected change in '/root/arxive/summary.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+127.0.0.1 - - [20/Sep/2025 23:37:08] "GET / HTTP/1.0" 200 -
