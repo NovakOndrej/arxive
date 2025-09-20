@@ -14,9 +14,10 @@ BASE_OPTIONS = {"temperature": 0.2, "top_p": 0.9, "num_predict": 100, "num_ctx":
 
 SYSTEM_LIST = (
   "You are a scientific assistant. Extract only the novel contributions of a research abstract. "
-  "Output MUST be a single line starting with 'Novelty:' followed by a comma-separated list of short noun phrases (3–8 words). "
+  "Output MUST be a single line of comma-separated list of short noun phrases (3–8 words). "
   "Third-person; no background/applications/future work; preserve numerics; no <think>."
 )
+
 
 def summarize_novelty_list(abstract: str, model: str = "gemma3:1b") -> str:
     payload = {
