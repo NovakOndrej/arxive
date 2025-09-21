@@ -159,3 +159,102 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 702-116-423
+127.0.0.1 - - [21/Sep/2025 17:01:16] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:16] "[33mGET /www/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.prod.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.ci HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.envrc HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /media../.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /public/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.backup HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.qa HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.sandbox HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /cms/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.test HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /config/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env_sample HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /prod/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env.preprod HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /settings/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /data/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /static../.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /admin/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /dev/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.production HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /build/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /app/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /assets../.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.dev HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.testing.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /server/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.bak HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.uat HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /src/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /api/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /media/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.aws/credentials HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.prod HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.live HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.staging.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /core/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.testing HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /files/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /docker-compose.prod.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.development.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.production.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.secret HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /config/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.template HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.dist HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.save HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.stage HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /configuration/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /backup/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /project/.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.default HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.dev.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:04:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 17:05:44] "GET / HTTP/1.0" 200 -
+ * Detected change in '/root/arxive/filtering.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+127.0.0.1 - - [21/Sep/2025 17:32:38] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 17:32:39] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+162.142.125.218 - - [21/Sep/2025 17:53:32] "GET / HTTP/1.1" 200 -
+162.142.125.218 - - [21/Sep/2025 17:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.218 - - [21/Sep/2025 17:53:37] code 505, message Invalid HTTP version (2.0)
+162.142.125.218 - - [21/Sep/2025 17:53:37] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.218 - - [21/Sep/2025 17:54:05] code 505, message Invalid HTTP version (2.0)
+162.142.125.218 - - [21/Sep/2025 17:54:05] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.218 - - [21/Sep/2025 17:54:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.218 - - [21/Sep/2025 17:54:19] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 18:07:18] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 18:12:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 18:26:08] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 18:33:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:12:57] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Sep/2025 19:31:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:32:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:33:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:47:16] "[32mGET /lang/en HTTP/1.0[0m" 302 -
+127.0.0.1 - - [21/Sep/2025 19:47:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:52:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 19:58:44] "[32mGET /lang/cz HTTP/1.0[0m" 302 -
+127.0.0.1 - - [21/Sep/2025 19:58:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 20:06:56] "[32mGET /lang/es HTTP/1.0[0m" 302 -
+127.0.0.1 - - [21/Sep/2025 20:07:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 20:07:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2025 20:10:02] "GET / HTTP/1.0" 200 -
+ * Detected change in '/root/arxive/filtering.py', reloading
+[INFO] users.db already exists.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 702-116-423
+127.0.0.1 - - [21/Sep/2025 20:17:42] "GET /register HTTP/1.0" 200 -

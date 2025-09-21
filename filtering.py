@@ -32,9 +32,15 @@ def ensure_user_db_schema(user_db_path):
                 published_timestamp TEXT NOT NULL,
                 added_timestamp TEXT NOT NULL,
                 label TEXT NOT NULL CHECK(label IN ('new', 'old')),
-                source_filter TEXT
+                source_filter TEXT,
+                summary TEXT
             );
         """)
+        # Make sure 'summary' exists for pre-existing DBs
+        cursor.execute("PRAGMA table_info(manuscripts)")
+        cols = [r[1] for r in cursor.fetchall()]
+        if "summary" not in cols:
+            cursor.execute("ALTER TABLE manuscripts ADD COLUMN summary TEXT DEFAULT ''")
         conn.commit()
 
 user_dirs = sorted(glob(os.path.join(USERS_ROOT, "user_*")))
@@ -84,10 +90,11 @@ with sqlite3.connect(MAIN_DB_PATH) as main_conn:
                 print("⏱️  No matches found — updated timestamp.")
                 continue
 
-            # Fetch all matching rows from manuscripts
+            # Fetch all matching rows from manuscripts (includes 'summary')
             placeholder = ",".join("?" for _ in fts_titles)
             main_cursor.execute(f"""
-                SELECT * FROM manuscripts
+                SELECT *
+                FROM manuscripts
                 WHERE title IN ({placeholder})
             """, fts_titles)
             all_matches = main_cursor.fetchall()
@@ -116,15 +123,16 @@ with sqlite3.connect(MAIN_DB_PATH) as main_conn:
                         user_cursor.execute("SELECT label FROM manuscripts WHERE id = ?", (manuscript_id,))
                         existing = user_cursor.fetchone()
                         label = existing["label"] if existing else "new"
-                        
+
                         filter_name = os.path.basename(filter_file).replace("filter_", "").replace(".json", "")
+                        summary_val = (match_dict.get("summary") or "").strip()
 
                         user_cursor.execute("""
                             INSERT OR REPLACE INTO manuscripts (
                                 id, title, authors, orcids, keywords,
                                 abstract, link, published_timestamp,
-                                added_timestamp, label, source_filter
-                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                added_timestamp, label, source_filter, summary
+                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                         """, (
                             manuscript_id,
                             match_dict["title"],
@@ -136,7 +144,8 @@ with sqlite3.connect(MAIN_DB_PATH) as main_conn:
                             match_dict["published_timestamp"],
                             added_timestamp,
                             label,
-                            filter_name
+                            filter_name,
+                            summary_val
                         ))
                         added_count += 1
                     user_conn.commit()
