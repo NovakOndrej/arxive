@@ -2,6 +2,9 @@ import os
 import smtplib
 import sqlite3
 import json
+import re
+import unicodedata
+import codecs
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
@@ -30,6 +33,39 @@ with open(TRANSLATION_PATH, "r", encoding="utf-8") as f:
 def t(key, lang):
     return TRANSLATIONS.get(key, {}).get(lang, key)
 
+# --- Utilities ---
+_U_ESCAPE = re.compile(r'\\u[0-9a-fA-F]{4}')
+
+def fix_unicode_leaks(s: str) -> str:
+    """Decode strings that contain literal \\uXXXX escapes and normalize to NFC.
+       Also flattens JSON-encoded author lists like ["A", "B"] -> "A, B"."""
+    if not s:
+        return ""
+    s = s.strip()
+
+    # If authors are stored as a JSON list string, join them
+    if s.startswith('[') and s.endswith(']'):
+        try:
+            data = json.loads(s)
+            if isinstance(data, list):
+                s = ", ".join(str(x) for x in data)
+        except Exception:
+            pass
+
+    # If we see literal \uXXXX, decode them
+    if _U_ESCAPE.search(s):
+        try:
+            s = codecs.decode(s, 'unicode_escape')
+        except Exception:
+            pass
+
+    # Normalize (helps with composed/combining forms)
+    s = unicodedata.normalize('NFC', s)
+    return s
+
+def _escape_html(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 # --- Data access ---
 def get_users():
     users = {}
@@ -47,6 +83,7 @@ def _matches_db_path(user_id):
     return os.path.join(BASE_DIR, f"user_{user_id}", "matches.db")
 
 def get_new_matches_grouped(user_id):
+    """Return grouped NEW matches with authors and summary included."""
     db_path = _matches_db_path(user_id)
     if not os.path.isfile(db_path):
         return {}
@@ -60,15 +97,18 @@ def get_new_matches_grouped(user_id):
     grouped = {}
     for row in rows:
         source_filter = row["source_filter"] if "source_filter" in row.keys() else "unknown"
+        authors = fix_unicode_leaks(row["authors"] if "authors" in row.keys() else "")
         grouped.setdefault(source_filter, []).append({
             "title": row["title"],
             "link": row["link"],
+            "authors": authors,
+            "summary": row["summary"] if "summary" in row.keys() else "",
             "abstract": row["abstract"]
         })
     return grouped
 
 def get_recent_any_label_grouped(user_id, limit=4):
-    """Fetch up to `limit` most recent entries regardless of label, grouped by source_filter."""
+    """Fetch up to `limit` most recent entries (any label), grouped by source_filter, including authors and summary."""
     db_path = _matches_db_path(user_id)
     if not os.path.isfile(db_path):
         return {}
@@ -76,17 +116,22 @@ def get_recent_any_label_grouped(user_id, limit=4):
     with sqlite3.connect(db_path) as conn:
         conn.row_factory = sqlite3.Row
         cur = conn.cursor()
-        # Try to sort by published_timestamp if present, else added_timestamp, else rowid
-        # Using datetime() on text ISO8601 sorts correctly; fallback to rowid
         cur.execute("""
-            SELECT title, link, abstract,
-                   CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='source_filter')
-                        THEN source_filter ELSE 'unknown' END AS source_filter,
-                   CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='published_timestamp')
-                        THEN published_timestamp ELSE NULL END AS published_timestamp,
-                   CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='added_timestamp')
-                        THEN added_timestamp ELSE NULL END AS added_timestamp,
-                   rowid
+            SELECT
+                title,
+                link,
+                CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='authors')
+                     THEN authors ELSE '' END AS authors,
+                CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='summary')
+                     THEN summary ELSE '' END AS summary,
+                CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='source_filter')
+                     THEN source_filter ELSE 'unknown' END AS source_filter,
+                CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='published_timestamp')
+                     THEN published_timestamp ELSE NULL END AS published_timestamp,
+                CASE WHEN EXISTS (SELECT 1 FROM pragma_table_info('manuscripts') WHERE name='added_timestamp')
+                     THEN added_timestamp ELSE NULL END AS added_timestamp,
+                abstract,
+                rowid
             FROM manuscripts
             ORDER BY
               CASE WHEN published_timestamp IS NOT NULL THEN datetime(published_timestamp) END DESC,
@@ -99,9 +144,12 @@ def get_recent_any_label_grouped(user_id, limit=4):
     grouped = {}
     for row in rows:
         sf = row["source_filter"] if row["source_filter"] else "unknown"
+        authors = fix_unicode_leaks(row["authors"] or "")
         grouped.setdefault(sf, []).append({
             "title": row["title"],
             "link": row["link"],
+            "authors": authors,
+            "summary": row["summary"] or "",
             "abstract": row["abstract"]
         })
     return grouped
@@ -133,9 +181,14 @@ def format_email_plain(grouped, lang):
     for filter_name, matches in grouped.items():
         lines.append(f"{t('email.filter_name', lang)}: {filter_name}")
         for m in matches:
-            lines.append(f"• {m['title']}\n{m['link']}")
-            if total <= 10:
-                lines.append(m.get("abstract", ""))
+            lines.append(f"• {m['title']}")
+            lines.append(m['link'])
+            if m.get("authors"):
+                lines.append(f"Authors: {m['authors']}")
+            if m.get("summary"):
+                lines.append(f"Novelty in topics: {m['summary']}")
+            if total <= 10 and m.get("abstract"):
+                lines.append(m["abstract"])
             lines.append("")
         lines.append("")
     # Disclaimer
@@ -168,22 +221,39 @@ def format_email_html(grouped, lang):
     for filter_name, matches in grouped.items():
         items = []
         for m in matches:
+            authors_block = ""
+            if m.get("authors"):
+                authors_block = f"""
+                  <div style="font-size:13px; color:#333; margin-top:2px;">
+                    {_escape_html(m['authors'])}
+                  </div>
+                """.strip()
+
+            novelty_block = ""
+            if m.get("summary"):
+                novelty_block = f"""
+                  <div style="margin-top:6px; font-size:13px; color:#4C191B; line-height:1.45;">
+                    <strong>Novelty in topics:</strong> {_escape_html(m['summary'])}
+                  </div>
+                """.strip()
+
             abstract_block = ""
             if total <= 10 and m.get("abstract"):
                 abstract_block = f"""
                   <div style="margin-top:8px; font-size:13px; color:#4C191B; line-height:1.45;">
-                    {m['abstract']}
+                    {_escape_html(m['abstract'])}
                   </div>
-                """
+                """.strip()
+
+            # Title is the ONLY link now (no extra URL block below).
             items.append(f"""
               <tr>
                 <td style="padding:12px 16px; border:1px solid rgba(76,25,27,0.2);">
                   <div style="font-size:15px; font-weight:600; margin-bottom:4px; line-height:1.35;">
-                    <a href="{m['link']}" style="color:#05668D; text-decoration:none;">{m['title']}</a>
+                    <a href="{m['link']}" style="color:#05668D; text-decoration:none;">{_escape_html(m['title'])}</a>
                   </div>
-                  <div style="font-size:12px; color:#666; word-break:break-word;">
-                    <a href="{m['link']}" style="color:#666; text-decoration:none;">{m['link']}</a>
-                  </div>
+                  {authors_block}
+                  {novelty_block}
                   {abstract_block}
                 </td>
               </tr>
@@ -192,7 +262,7 @@ def format_email_html(grouped, lang):
           <tr>
             <td style="padding-top:6px; padding-bottom:6px;">
               <div style="font-weight:700; margin:14px 0 8px 0; font-size:16px; color:#4C191B;">
-                {t('email.filter_name', lang)}: {filter_name}
+                {t('email.filter_name', lang)}: {_escape_html(filter_name)}
               </div>
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
                 {''.join(items)}
@@ -249,7 +319,6 @@ def send_email(to_email, subject, plain_body, html_body):
     msg["To"] = to_email
     msg["Subject"] = subject
 
-    # Attach plain text first (fallback), then HTML
     msg.attach(MIMEText(plain_body, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
@@ -267,7 +336,6 @@ def main():
 
     users = get_users()
 
-    # In DEBUG, restrict to one sample user and pull any 4 most recent entries (any label)
     if DEBUG:
         if DEBUG_SAMPLE_USER_ID not in users:
             print(f"❌ DEBUG: user id {DEBUG_SAMPLE_USER_ID} not found in users.db")
@@ -294,7 +362,6 @@ def main():
         if DEBUG:
             print(f"--- EMAIL (PLAIN) to {email} ---\n{plain}\n--- END PLAIN ---\n")
             print(f"--- EMAIL (HTML) to {email} ---\n{html}\n--- END HTML ---\n")
-            # Still send to see rendering in a real client during debug
             send_email(email, subject, plain, html)
             print(f"✅ DEBUG email sent to {email} (max {DEBUG_SAMPLE_LIMIT} entries, any label)")
         else:
