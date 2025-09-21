@@ -53,7 +53,7 @@ def summarize_novelty_list(abstract: str, model: str = "gemma3:1b") -> str:
     return clean(text)
 
 # ---- Main worker ----
-MAX_SECONDS = 5 * 60 * 60  # 5 hours
+MAX_SECONDS = 3 * 60 * 60  # 5 hours
 BATCH_SIZE = 50            # number of rows to pull per DB fetch
 
 SELECT_BATCH_SQL = """
