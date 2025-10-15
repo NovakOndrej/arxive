@@ -9,279 +9,587 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 702-116-423
-127.0.0.1 - - [21/Sep/2025 01:12:15] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 01:12:15] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:15] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:15] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 01:12:16] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:16] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:16] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:16] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:16] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:17] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:17] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:17] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:17] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:17] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:18] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:18] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:18] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:18] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:18] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 01:12:19] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:05:24] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:05:24] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-198.235.24.121 - - [21/Sep/2025 02:25:33] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [21/Sep/2025 02:26:35] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 02:40:50] "[33mGET /+CSCOE+/commonspawn.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:51] "[33mGET /+CSCOE+/logon_forms.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:53] "[33mGET /+CSCOE+/portal_forms.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:54] "[33mGET /+CSCOE+/appstart.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:55] "[33mGET /+CSCOE+/ytsmi.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:56] "[33mGET /+CSCOE+/itsncnt.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:57] "[33mGET /+CSCOE+/vpnshut.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:58] "[33mGET /+CSCOE+/login_now.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:40:59] "[33mGET /+CSCOE+/sign_up.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 02:41:01] "[33mGET /+CSCOE+/admin.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:03:18] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:03:20] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 03:23:40] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:23:40] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 03:32:25] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 03:42:37] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:43:53] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 03:55:12] "[33mGET /.env.production HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:55:13] "[33mGET /admin/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:55:13] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:55:13] "[33mGET /api/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:55:13] "[33mGET /login/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:55:13] "[33mGET /checkout/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:18] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 03:57:19] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 03:57:20] "[33mHEAD /favicon.ico HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:21] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:30] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:31] "[33mGET /admin/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:31] "[33mGET /login/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:31] "[33mGET /.env.production HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:31] "[33mGET /checkout/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 03:57:31] "[33mGET /api/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 04:04:47] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 04:48:02] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 04:48:03] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 05:01:44] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 05:19:41] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 05:21:52] "[33mGET /sftp-config.json HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 05:21:53] "[33mGET /.vscode/sftp.json HTTP/1.0[0m" 404 -
-3.131.215.38 - - [21/Sep/2025 05:24:53] "GET / HTTP/1.1" 200 -
-3.131.215.38 - - [21/Sep/2025 05:26:58] "GET / HTTP/1.1" 200 -
-3.131.215.38 - - [21/Sep/2025 05:28:08] code 400, message Bad request version ('À\x14À')
-3.131.215.38 - - [21/Sep/2025 05:28:08] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üÝ<\x13\x00\x8b\x08Ò\x8f²R%\x1b\x18\x91&O\x87{9+\x1dÇ\x0fÊ\x02Q"\x13ZÄ+\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
-3.131.215.38 - - [21/Sep/2025 05:29:32] code 400, message Bad request syntax ('SSH-2.0-Go')
-3.131.215.38 - - [21/Sep/2025 05:29:32] "[31m[1mSSH-2.0-Go[0m" 400 -
-3.131.215.38 - - [21/Sep/2025 05:31:08] code 400, message Bad request version ('À\x14À')
-3.131.215.38 - - [21/Sep/2025 05:31:08] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x1etÆ3L0×\x1dÇ\x1d\x0fuÁV\x08\x8fY®Y\x98ôB'\x0c4êÑ§âÇk;\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 05:36:26] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 05:36:26] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 06:06:43] "GET / HTTP/1.0" 200 -
-198.235.24.107 - - [21/Sep/2025 06:51:15] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 06:53:09] "[33mGET /ab2g HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 06:53:09] "[33mGET /ab2h HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 06:53:09] "[33mGET /alive.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 06:53:11] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 06:53:11] "[33mGET /teorema505?t=1 HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 07:32:22] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 07:39:59] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 07:40:00] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 07:57:22] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 08:02:49] "[33mGET /webui/ HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 08:06:41] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 08:07:30] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 08:08:15] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 08:21:33] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 08:56:25] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 08:56:52] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 08:57:20] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 09:01:26] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 09:02:06] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 09:05:08] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 09:05:18] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 09:37:42] "[33mGET /.well-known/security.txt HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 09:50:25] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 10:21:50] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 10:42:16] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:02:23] "[33mGET /developmentserver/metadatauploader HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:04:21] "[33mGET /.git/objects/pack/ HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:05:12] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:05:12] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 11:12:17] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 11:23:11] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
-74.82.47.3 - - [21/Sep/2025 11:29:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ýû»+QþÒFÀ&Òf{.ic¾Ï\x07\x88«ánæ\x87Ñg¯±\x84È´\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
-74.82.47.3 - - [21/Sep/2025 11:29:09] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ýû»+QþÒFÀ&Òf{.ic¾Ï\x07\x88«ánæ\x87Ñg¯±\x84È´\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 11:36:08] "[33mGET /index.html HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:36:13] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 11:49:58] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 11:53:21] "GET / HTTP/1.0" 200 -
-205.210.31.194 - - [21/Sep/2025 11:57:01] code 400, message Bad request version ('À\x13À')
-205.210.31.194 - - [21/Sep/2025 11:57:01] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x034z|\x0f¢\x9d]j\x8f ÷¦\x98\x17x\x8c³Õ\x16áß*\x17\x899o¶vnXÖP IY\x9cÉyJ\x91k5¢¾ê\x9cõ"(\x862\x81ò\x1cGRÚ7\\õ%T½Ëé\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
-205.210.31.194 - - [21/Sep/2025 11:57:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x98')
-205.210.31.194 - - [21/Sep/2025 11:57:02] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x98\x09{du\x18\x0eè²ª5[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 12:19:59] "[33mGET /assets/js/views/login.js HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 12:28:41] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 12:43:43] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 12:54:27] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 13:24:46] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 13:32:24] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 13:53:14] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 14:02:45] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 14:02:46] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-127.0.0.1 - - [21/Sep/2025 14:08:22] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 14:08:24] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 14:16:20] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 14:23:06] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 14:23:34] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 14:30:07] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:35:16] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:35:25] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:36:31] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:38:20] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:41:44] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 15:51:45] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 15:54:43] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 16:04:38] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 16:36:34] "[33mGET /index.html HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 16:36:35] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 16:40:46] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 16:40:48] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 16:41:39] "GET / HTTP/1.0" 200 -
- * Detected change in '/root/arxive/summary.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
-127.0.0.1 - - [21/Sep/2025 17:01:16] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:16] "[33mGET /www/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.prod.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.ci HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.envrc HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /media../.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /public/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.backup HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.qa HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.sandbox HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /cms/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:17] "[33mGET /.env.test HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /config/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env_sample HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /prod/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env.preprod HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /api/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /settings/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /data/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /static../.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /admin/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /dev/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:18] "[33mGET /.env.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.production HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /build/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /app/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /assets../.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.dev HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.testing.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /server/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.bak HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /.env.uat HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:19] "[33mGET /src/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /api/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /media/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.aws/credentials HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.prod HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.live HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.staging.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /core/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /.env.testing HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /files/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:20] "[33mGET /docker-compose.prod.yml HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.development.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.production.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.secret HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /config/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.template HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.dist HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.save HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /.env.stage HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /configuration/.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /backup/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:21] "[33mGET /project/.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.default HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /config.json HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:01:22] "[33mGET /.env.dev.local HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:04:19] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 17:05:44] "GET / HTTP/1.0" 200 -
- * Detected change in '/root/arxive/filtering.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
-127.0.0.1 - - [21/Sep/2025 17:32:38] "[33mGET /.env HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 17:32:39] "[31m[1mPOST / HTTP/1.0[0m" 400 -
-162.142.125.218 - - [21/Sep/2025 17:53:32] "GET / HTTP/1.1" 200 -
-162.142.125.218 - - [21/Sep/2025 17:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-162.142.125.218 - - [21/Sep/2025 17:53:37] code 505, message Invalid HTTP version (2.0)
-162.142.125.218 - - [21/Sep/2025 17:53:37] "[35m[1mPRI * HTTP/2.0[0m" 505 -
-162.142.125.218 - - [21/Sep/2025 17:54:05] code 505, message Invalid HTTP version (2.0)
-162.142.125.218 - - [21/Sep/2025 17:54:05] "[35m[1mPRI * HTTP/2.0[0m" 505 -
-162.142.125.218 - - [21/Sep/2025 17:54:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-162.142.125.218 - - [21/Sep/2025 17:54:19] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 18:07:18] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 18:12:31] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 18:26:08] "[33mGET /.git/config HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 18:33:35] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:12:57] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
-127.0.0.1 - - [21/Sep/2025 19:31:53] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:32:15] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:33:49] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:47:16] "[32mGET /lang/en HTTP/1.0[0m" 302 -
-127.0.0.1 - - [21/Sep/2025 19:47:17] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:52:35] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 19:58:44] "[32mGET /lang/cz HTTP/1.0[0m" 302 -
-127.0.0.1 - - [21/Sep/2025 19:58:48] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 20:06:56] "[32mGET /lang/es HTTP/1.0[0m" 302 -
-127.0.0.1 - - [21/Sep/2025 20:07:01] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 20:07:32] "GET / HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 20:10:02] "GET / HTTP/1.0" 200 -
- * Detected change in '/root/arxive/filtering.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
-127.0.0.1 - - [21/Sep/2025 20:17:42] "GET /register HTTP/1.0" 200 -
-127.0.0.1 - - [21/Sep/2025 20:27:10] "[33mGET /.git/objects/info/ HTTP/1.0[0m" 404 -
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
-127.0.0.1 - - [21/Sep/2025 20:33:55] "[33mGET /.git/config HTTP/1.0[0m" 404 -
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
- * Detected change in '/root/arxive/notifier.py', reloading
-[INFO] users.db already exists.
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 702-116-423
+127.0.0.1 - - [15/Oct/2025 01:28:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 01:36:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 01:36:18] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 01:36:30] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 01:36:31] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 01:43:06] "[33mGET /.git/index HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 01:45:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 01:45:59] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 01:46:03] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:02:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 02:07:26] "[33mGET /OA_HTML/runforms.jsp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:07:27] "[33mPOST /OA_HTML/JavaScriptServlet HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:08:12] "[33mGET /webui/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:12:51] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:13:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 02:14:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 02:23:31] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:23:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 02:27:28] "[33mGET /geoserver/web/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:32:39] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:34:43] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 02:34:43] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 03:28:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:04:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:16:39] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:23:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:24:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:35:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:35:59] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:39:12] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:13] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 04:39:13] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:14] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:14] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:14] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:14] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:14] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:15] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:15] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:15] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:15] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:15] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:16] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:16] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:16] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:16] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:39:16] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:50:26] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 04:50:26] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 04:57:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 05:00:38] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 05:00:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 05:04:21] "[33mGET /autodiscover/autodiscover.json?@zdi/Powershell HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 05:30:07] "[33mGET /developmentserver/metadatauploader HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 05:54:30] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 05:54:30] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+147.185.132.66 - - [15/Oct/2025 06:12:58] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03àãt?vfR¸sÃ4´TÈ\x83\x00¨\x8eIZ\x0e\x90ÆR]Ç')
+147.185.132.66 - - [15/Oct/2025 06:12:58] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03àãt?vfR¸sÃ4´TÈ\x83\x00¨\x8eIZ\x0e\x90ÆR]Ç[0m" 400 -
+147.185.132.66 - - [15/Oct/2025 06:12:58] code 400, message Bad request version ('À(À$À\x14À')
+147.185.132.66 - - [15/Oct/2025 06:12:58] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ß\x00\x83ê6\x84\x83.$Ôû}+I|$\x93®\x98CØ*8uýLrØ·äÅ\x85\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 06:51:48] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:09:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:10:07] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:10:07] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:10:07] "[33mGET /sitemap.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:10:08] "[33mGET /config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:35:17] "[33mPOST /FD873AC4-CF86-4FED-84EC-4BD59C6F17A7 HTTP/1.0[0m" 404 -
+77.251.188.89 - - [15/Oct/2025 07:37:13] code 400, message Bad request version ('¢mî\x0ef0\x00\x01\x14Ì¨Ì©ÌªÀ,À0\x00\x9fÀ\xadÀ\x9fÀ$À(\x00kÀ')
+77.251.188.89 - - [15/Oct/2025 07:37:13] "[31m[1m\x16\x03\x01\x01\x89\x01\x00\x01\x85\x03\x03hï3\x08yJ\x85\x90¼gð¬å\x01z²at/Þ\x14Zª\x09Z\x85¢mî\x0ef0\x00\x01\x14Ì¨Ì©ÌªÀ,À0\x00\x9fÀ­À\x9fÀ$À(\x00kÀ[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 07:53:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:45] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:47] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:48] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:49] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:50] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:53] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:53] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:54] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 07:57:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 07:57:57] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+198.235.24.82 - - [15/Oct/2025 08:03:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 08:19:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:19:22] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:19:23] "GET /static/images/logo.png HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:19:25] "[33mGET /sitemap.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:19:25] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+172.104.241.92 - - [15/Oct/2025 08:24:29] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+172.104.241.92 - - [15/Oct/2025 08:24:29] "[31m[1m\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 08:24:30] "GET / HTTP/1.0" 200 -
+172.104.241.92 - - [15/Oct/2025 08:24:34] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:34] "[31m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:34] "GET / HTTP/1.0" 200 -
+172.104.241.92 - - [15/Oct/2025 08:24:34] "OPTIONS / HTTP/1.0" 200 -
+172.104.241.92 - - [15/Oct/2025 08:24:34] code 400, message Bad request version ('RTSP/1.0')
+172.104.241.92 - - [15/Oct/2025 08:24:34] "[31m[1mOPTIONS / RTSP/1.0[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:40] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:40] "[31m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:45] code 400, message Bad HTTP/0.9 request type ('\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:45] "[31m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:45] code 400, message Bad request syntax ('HELP')
+172.104.241.92 - - [15/Oct/2025 08:24:45] "[31m[1mHELP[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:45] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:45] "[31m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:45] code 400, message Bad request version ('\x00/\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:45] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:45] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+172.104.241.92 - - [15/Oct/2025 08:24:45] "[31m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:50] code 400, message Bad request version ('0.12\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:50] "[31m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:55] code 400, message Bad HTTP/0.9 request type ('l\x00')
+172.104.241.92 - - [15/Oct/2025 08:24:55] "[31m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:24:55] code 400, message Bad request version ('SIP/2.0')
+172.104.241.92 - - [15/Oct/2025 08:24:55] "[31m[1mOPTIONS sip:nm SIP/2.0[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:25:00] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+172.104.241.92 - - [15/Oct/2025 08:25:00] "[31m[1mAMQP\x00\x00\x09\x01[0m" 400 -
+172.104.241.92 - - [15/Oct/2025 08:25:00] "[33mGET /devicedesc.xml HTTP/1.1[0m" 404 -
+172.104.241.92 - - [15/Oct/2025 08:25:00] code 400, message Bad request version ('\x00/\x00')
+172.104.241.92 - - [15/Oct/2025 08:25:00] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "[33mGET /webui HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:25:00] "[33mGET /owa/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:25:01] "[33mGET /owa/ HTTP/1.0[0m" 404 -
+172.104.241.92 - - [15/Oct/2025 08:25:10] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03°\x8dØ¯\x97\x93Âv\x1bÖÜë_\x07</O-ÐÝðK')
+172.104.241.92 - - [15/Oct/2025 08:25:10] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03°\x8dØ¯\x97\x93Âv\x1bÖÜë_\x07</O-ÐÝðK[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 08:25:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:25:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:34:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[32mGET /lang/cz HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[32mGET /lang/en HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[32mGET /lang/es HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "GET /forgot_password HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "GET /register HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[33mGET /phpinfo HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:34:57] "[33mGET /phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:20] "[33mGET /phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:20] "[33mGET /portal/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:20] "[33mGET /env/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:20] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /app/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /dev/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /new/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /new/.env.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /new/.env.production HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:21] "[33mGET /new/.env.staging HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:33] "[33mGET /_phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:47] "[33mGET /_profiler/phpinfo HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:35:50] "[33mGET /_profiler/phpinfo/info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:17] "[33mGET /wp-config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:20] "[33mGET /aws-secret.yaml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:20] "[33mGET /awstats/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:21] "[33mGET /conf/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:21] "[33mGET /cron/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:21] "[33mGET /www/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:21] "[33mGET /docker/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:23] "[33mGET /docker/app/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:23] "[33mGET /env.backup HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:25] "[33mGET /xampp/phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:25] "[33mGET /lara/info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:26] "[33mGET /lara/phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:28] "[33mGET /laravel/info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:30] "[33mGET /.vscode/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:30] "[33mGET /js/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:31] "[33mGET /laravel/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:31] "[33mGET /laravel/core/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:32] "[33mGET /mail/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:32] "[33mGET /mailer/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /nginx/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /public/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /site/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /xampp/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /main/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /node_modules/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /kyc/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /admin/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /prod/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /.env.bak HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /api/shared/config/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /api/shared/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /website/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /development/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /backend/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:36] "[33mGET /api/shared/config/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:37] "[33mGET /api/shared/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:37] "[33mGET /api/config.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:37] "[33mGET /service/email_service.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:38] "[33mGET /node/.env_example HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:39] "[33mGET /.env.production.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:41] "[33mGET /.env.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:41] "[33mGET /.env.example HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:41] "[33mGET /.env.stage HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:43] "[33mGET /server/config/database.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:43] "[33mGET /.env.old HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /.env_sample HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /scripts/nodemailer.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /.env.prod HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /crm/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /local/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /core/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /apps/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /application/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /web/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /.aws/credentials HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /wp-config.php.bak HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /dashboard/phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /static/js/main.141b0494.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /static/js/2.ca066a4b.chunk.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /static/js/main.e85f7a37.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /admin/server_info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /server_info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:44] "[33mGET /app_dev.php/_profiler/phpinfo HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:47] "[33mGET /test.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:47] "[33mGET /server-info HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:47] "[33mGET /server-info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:47] "[33mGET /secured/phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:36:47] "[33mGET /config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:08] "[33mGET /appsettings.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:08] "[33mGET /shared/config/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:08] "[33mGET /config/aws.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:08] "[33mGET /settings.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /main.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /config/constants.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /application.properties HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /public/js/main.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /js/main.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "GET /?phpinfo=1 HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /storage/logs/laravel.log HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /karma.conf.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /swagger.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /swagger.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /gatsby-config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /backend/config/default.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /app.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /admin/controllers/merchant.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /admin/controllers/partner.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /api/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /api/objects/codes.php.save HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /apis/config/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /apis/controllers/users.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /app.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /backend/config/development.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /cloud/Scraper.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:09] "[33mGET /config/application.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /config/storage.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /configs/routes-4aug.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /configs/routes.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /configs/s3_config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /controller/admin/post.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /controller/api/post.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /controllers/settings.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /getcpuutil.php-bakworking HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /helper.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /helper/EmailHelper.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /index.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /my_env/chakaash.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /my_env/newsletter.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /my_env/palash.py HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /mytest/astech_robot.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /partner/config/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /config/settings.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /config/settings.local HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:10] "[33mGET /.circleci/configs/development.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /config/settings.prod HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /app/config/parameters.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /config/parameters.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /user/config/config.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /user/controllers/index.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /.AWS_/credentials HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /config/local.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /backend/config/settings.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /api/config/config.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /admin/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /appsettings.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /.travis.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:11] "[33mGET /aws.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /config/config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /main.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /helpers/utility.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /server/s3.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /s3.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /debug/default/view HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /aws/credentials HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 08:37:35] "[33mGET /.aws/config HTTP/1.0[0m" 404 -
+65.49.1.132 - - [15/Oct/2025 08:39:54] code 400, message Bad request version ('À\x14À')
+65.49.1.132 - - [15/Oct/2025 08:39:54] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Na\x98â£Ì\x8eú\x89çòZSùÂKè)®«}{ÊO¹ÂY¦\x93\x85\x84\x17\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+20.118.248.174 - - [15/Oct/2025 08:58:48] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 09:42:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 09:44:46] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 09:46:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 09:46:14] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 09:51:37] "[33mGET /media/system/js/core.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 09:51:37] "[33mGET /wp-includes/js/jquery/jquery.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 09:58:29] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "GET /static/images/es_icon.png HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "GET /static/images/logo.png HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:04] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:05] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:06:05] "[33mGET /apple-touch-icon.png HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:06:08] "[32mPOST / HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:06:08] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:09] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:09] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:09] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:09] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:09] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:10] "[32mGET /filters/new HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:06:11] "GET /filters/edit HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:11] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:11] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:11] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:11] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[32mPOST /filters/edit HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:58] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:06:59] "GET /static/images/Icons/icon1.png HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:07:01] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:07:01] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:01] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:01] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:01] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:17] "GET /static/categories.txt HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:07:46] "[33mGET /.git/HEAD HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:07:49] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:07:49] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:07:49] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:50] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:50] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:50] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:50] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:50] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:52] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:07:52] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:52] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:52] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:52] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:07:53] "POST /filters/check HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:01] "POST /filters/check HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:11] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:13] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:13] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:13] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:13] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:13] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:34] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:36] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:08:36] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:36] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:36] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:36] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:08:38] "POST /filters/check HTTP/1.0" 200 -
+162.142.125.41 - - [15/Oct/2025 10:11:15] "GET / HTTP/1.1" 200 -
+162.142.125.41 - - [15/Oct/2025 10:11:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.41 - - [15/Oct/2025 10:11:24] code 505, message Invalid HTTP version (2.0)
+162.142.125.41 - - [15/Oct/2025 10:11:24] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.41 - - [15/Oct/2025 10:11:42] code 505, message Invalid HTTP version (2.0)
+162.142.125.41 - - [15/Oct/2025 10:11:42] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.41 - - [15/Oct/2025 10:11:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.41 - - [15/Oct/2025 10:11:49] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:19:26] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:19:26] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:19:26] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:27] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:27] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:27] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:27] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:27] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:28] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:19:28] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:28] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:28] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:28] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:31] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:33] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:19:33] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:33] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:33] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:33] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:19:34] "POST /filters/check HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:19:48] "POST /filters/check HTTP/1.0" 200 -
+167.94.138.172 - - [15/Oct/2025 10:20:56] "GET / HTTP/1.1" 200 -
+167.94.138.172 - - [15/Oct/2025 10:20:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.172 - - [15/Oct/2025 10:21:01] code 505, message Invalid HTTP version (2.0)
+167.94.138.172 - - [15/Oct/2025 10:21:01] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.172 - - [15/Oct/2025 10:21:16] code 505, message Invalid HTTP version (2.0)
+167.94.138.172 - - [15/Oct/2025 10:21:16] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.172 - - [15/Oct/2025 10:21:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.172 - - [15/Oct/2025 10:21:29] "[33mGET /login HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:42:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:47:50] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:48:45] "POST /filters/check HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:52:54] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:54:58] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 10:57:05] "GET /static/categories.txt HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:57:06] "GET /static/categories.txt HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:57:44] "[32mPOST /filters/edit/oxide%20membranes HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:57:44] "GET /filters HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/logo.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/Icons/icon1.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:45] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "[32mGET /filters/new HTTP/1.0[0m" 302 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "GET /filters/edit HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:46] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:49] "GET /filters/edit/oxide%20membranes HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 10:57:49] "[36mGET /static/images/cz_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:49] "[36mGET /static/images/en_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:49] "[36mGET /static/images/es_icon.png HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:49] "[36mGET /static/images/librarry.jpg HTTP/1.0[0m" 304 -
+127.0.0.1 - - [15/Oct/2025 10:57:51] "POST /filters/check HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:10:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:10:41] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:13:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:34:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:48] "[33mGET /backend/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:48] "[33mGET /api/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:48] "[33mGET /admin/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:48] "GET /?phpinfo=-1 HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:34:49] "[33mGET /app_dev.php/_profiler/phpinfo HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:49] "[33mGET /.env.example HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:49] "[33mGET /phpinfo/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:50] "[33mGET /server/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:50] "[33mGET /phpinfo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:50] "[33mGET /panel/.env.2 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:51] "[33mGET /public_html/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:51] "[33mGET /tmp/.env.uat HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:51] "[33mGET /src/env/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:52] "[33mGET /var/www/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:53] "[33mGET /.env.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:53] "[33mGET /projeto/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:53] "[33mGET /stag/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:53] "[33mGET /media/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:53] "[33mGET /admin/.env.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:54] "[33mGET /uat/env.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:54] "[33mGET /portal/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:54] "[33mGET /qa/.env.dist HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:54] "[33mGET /src/.env.dev HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:55] "[33mGET /src/.env.bak HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:55] "[33mGET /tmp/.env.tmp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:55] "[33mGET /twilio/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:56] "[33mGET /adminapp/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:56] "[33mGET /api/test HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:57] "[33mGET /reactjs/.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:34:57] "GET /?format=json HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 11:48:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 11:48:47] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 12:10:19] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+3.143.33.63 - - [15/Oct/2025 12:24:11] "GET / HTTP/1.1" 200 -
+3.143.33.63 - - [15/Oct/2025 12:26:04] "GET / HTTP/1.1" 200 -
+3.143.33.63 - - [15/Oct/2025 12:28:10] code 400, message Bad request version ('À\x14À')
+3.143.33.63 - - [15/Oct/2025 12:28:10] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x19f5\x17\x09>HXUõ>·MÃ\x13B\x09É\x07N·¤_\x10P\x89úmFñ=ÿ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.143.33.63 - - [15/Oct/2025 12:30:30] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.143.33.63 - - [15/Oct/2025 12:30:30] "[31m[1mSSH-2.0-Go[0m" 400 -
+3.143.33.63 - - [15/Oct/2025 12:32:52] code 400, message Bad request version ('À\x14À')
+3.143.33.63 - - [15/Oct/2025 12:32:52] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03±Ü¬É5¢á\x13\x82æI\x1eá9¹¤PPáô\x01i¹Ú&Ý%ø½Áb+\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+52.213.157.16 - - [15/Oct/2025 12:47:18] "[33mCONNECT ssl.gstatic.com:443 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 13:07:49] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 13:09:59] "[33mGET /actuator/gateway/routes HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 13:17:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 13:28:33] "[33mHEAD /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 13:35:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 13:49:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 13:49:56] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 14:06:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 14:13:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 14:33:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 14:48:03] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 14:57:48] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:05:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 15:07:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 15:12:22] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:13:51] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:14:01] "[33mGET /wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:14:17] "[33mGET /wordpress/wp-admin/setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:21:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 15:32:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 15:32:51] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 15:32:52] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 16:10:18] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 16:10:18] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 16:42:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 16:44:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 17:22:19] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:22:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 17:22:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 17:22:21] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:24:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 17:32:55] "[33mGET /_profiler/phpinfo HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:33:29] "[33mGET /+CSCOL+/Java.jar HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:33:29] "[33mGET /+CSCOE+/logon_forms.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:33:30] "[33mGET /+CSCOL+/a1.jar HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:33:31] "[33mGET /+CSCOE+/transfer.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 17:46:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 17:46:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 18:04:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 18:11:53] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 18:11:55] "[31m[1mPOST / HTTP/1.0[0m" 400 -
+127.0.0.1 - - [15/Oct/2025 18:30:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 18:38:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 18:48:09] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 18:55:55] "[33mGET /.git/refs/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 19:38:46] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 19:40:59] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 19:44:15] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 20:39:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 20:39:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 21:06:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 21:10:42] "[33mGET /dns-query?dns=QmcBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:42] "[33mPOST /dns-query HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:42] "[33mGET /dns-query?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:42] "[33mGET /dns-query?dns=0acBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mPOST /dns-query HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mGET /dns-query?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mGET /query?dns=FyQBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mPOST /query HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mGET /query?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mGET /query?dns=Pr0BAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:43] "[33mPOST /query HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mGET /query?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mGET /resolve?dns=j-YBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mPOST /resolve HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mGET /resolve?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mGET /resolve?dns=xCUBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mPOST /resolve HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "[33mGET /resolve?name=example.com&type=A HTTP/1.0[0m" 404 -
+127.0.0.1 - - [15/Oct/2025 21:10:44] "GET /?dns=bGkBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0" 200 -
+[2025-10-15 21:10:45,051] WARNING in auth: Rejected POST / with mimetype application/dns-message
+127.0.0.1 - - [15/Oct/2025 21:10:45] "[31m[1mPOST / HTTP/1.0[0m" 415 -
+127.0.0.1 - - [15/Oct/2025 21:10:45] "GET /?name=example.com&type=A HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 21:10:45] "GET /?dns=M2kBAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE HTTP/1.0" 200 -
+[2025-10-15 21:10:45,538] WARNING in auth: Rejected POST / with mimetype application/dns-message
+127.0.0.1 - - [15/Oct/2025 21:10:45] "[31m[1mPOST / HTTP/1.0[0m" 415 -
+127.0.0.1 - - [15/Oct/2025 21:10:45] "GET /?name=example.com&type=A HTTP/1.0" 200 -
+127.0.0.1 - - [15/Oct/2025 21:12:39] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
